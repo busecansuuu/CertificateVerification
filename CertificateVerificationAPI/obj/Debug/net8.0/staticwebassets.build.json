@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rm07bRYA4Pn4VvPb4OIaSQanmkCvI2L69ynNrjnsN5k=",
+  "Source": "CertificateVerificationAPI",
+  "BasePath": "_content/CertificateVerificationAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
