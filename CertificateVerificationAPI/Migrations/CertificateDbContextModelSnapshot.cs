@@ -45,7 +45,7 @@ namespace CertificateVerificationAPI.Migrations
                     b.Property<DateTime>("GivenDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("UserId")
+                    b.Property<int>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -127,11 +127,15 @@ namespace CertificateVerificationAPI.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("CertificateVerificationAPI.Entities.User", null)
+                    b.HasOne("CertificateVerificationAPI.Entities.User", "User")
                         .WithMany("Certificates")
-                        .HasForeignKey("UserId");
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("CertificateHolderCompany");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("CertificateVerificationAPI.Entities.User", b =>

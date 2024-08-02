@@ -28,3 +28,6 @@ D:\BUSE\.net\CertificateVerification\CertificateVerification\obj\Debug\net8.0\re
 D:\BUSE\.net\CertificateVerification\CertificateVerification\obj\Debug\net8.0\CertificateVerification.pdb
 D:\BUSE\.net\CertificateVerification\CertificateVerification\obj\Debug\net8.0\CertificateVerification.genruntimeconfig.cache
 D:\BUSE\.net\CertificateVerification\CertificateVerification\obj\Debug\net8.0\ref\CertificateVerification.dll
+D:\BUSE\.net\CertificateVerification\CertificateVerification\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\BUSE\.net\CertificateVerification\CertificateVerification\obj\Debug\net8.0\CertificateVerification.csproj.AssemblyReference.cache
+D:\BUSE\.net\CertificateVerification\CertificateVerification\obj\Debug\net8.0\CertificateVerification.csproj.CopyComplete

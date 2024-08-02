@@ -1,6 +1,10 @@
 using CertificateVerificationAPI.Context;
 using CertificateVerificationAPI.DataAccess.Abstract;
 using CertificateVerificationAPI.DataAccess.Concrete;
+using CertificateVerificationAPI.Entities;
+using CertificateVerificationAPI.Mapping;
+using CertificateVerificationAPI.Services;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +19,10 @@ builder.Services.AddDbContext<CertificateDbContext>();
 builder.Services.AddScoped<ICertificateRepository,CertificateRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ICertificateHolderCompanyRepository, CertificateHolderCompanyRepository>();
+
+builder.Services.AddAutoMapper(typeof(APIMapping));
+builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
+builder.Services.AddScoped<PasswordService>();
 
 var app = builder.Build();
 

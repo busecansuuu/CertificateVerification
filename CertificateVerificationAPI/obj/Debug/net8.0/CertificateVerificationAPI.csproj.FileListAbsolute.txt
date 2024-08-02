@@ -135,3 +135,4 @@ D:\BUSE\.net\CertificateVerification\CertificateVerificationAPI\obj\Debug\net8.0
 D:\BUSE\.net\CertificateVerification\CertificateVerificationAPI\obj\Debug\net8.0\CertificateVerificationAPI.pdb
 D:\BUSE\.net\CertificateVerification\CertificateVerificationAPI\obj\Debug\net8.0\CertificateVerificationAPI.genruntimeconfig.cache
 D:\BUSE\.net\CertificateVerification\CertificateVerificationAPI\obj\Debug\net8.0\ref\CertificateVerificationAPI.dll
+D:\BUSE\.net\CertificateVerification\CertificateVerificationAPI\bin\Debug\net8.0\AutoMapper.dll

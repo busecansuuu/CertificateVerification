@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UScynxMF0PzdHhTWJsDPNVm5qe6QzU7F0bNrPzHrE2rYXy4BuIbWa5SPfeRsTw04YzzlVEdNT8wqVfwJBxJMCQ==",
+  "dgSpecHash": "bk5OoYcRvFDQtbZp6pH5/jIITnVraIXqYizZW/W29sf/F5uX3+d3tboQe5HmO+6fhENgIQSkfi5deRcyBgY0ZQ==",
   "success": true,
   "projectFilePath": "D:\\BUSE\\.net\\CertificateVerification\\CertificateVerificationAPI\\CertificateVerificationAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Buse\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Buse\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Buse\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Buse\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -1,5 +1,6 @@
 ﻿using CertificateVerificationAPI.Entities;
 using Microsoft.EntityFrameworkCore;
+using System.Threading.Channels;
 
 namespace CertificateVerificationAPI.Context
 {
@@ -13,6 +14,5 @@ namespace CertificateVerificationAPI.Context
         public DbSet<User> Users { get; set; }
         public DbSet<Certificate> Certificates { get; set; }
         public DbSet<CertificateHolderCompany> CertificateHolderCompanies { get; set; }
-        
     }
 }

@@ -1,5 +1,7 @@
-﻿using CertificateVerificationAPI.DataAccess.Abstract;
+﻿using AutoMapper;
+using CertificateVerificationAPI.DataAccess.Abstract;
 using CertificateVerificationAPI.DataAccess.Concrete;
+using CertificateVerificationAPI.DTOS;
 using CertificateVerificationAPI.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -11,13 +13,14 @@ namespace CertificateVerificationAPI.Controllers
     public class CertificateHolderCompaniesController : ControllerBase
     {
         private readonly ICertificateHolderCompanyRepository _companyRepository;
-        private object _companyRespository;
+        private readonly IMapper _mapper;
 
-        public CertificateHolderCompaniesController(ICertificateHolderCompanyRepository companyRepository)
+        public CertificateHolderCompaniesController(ICertificateHolderCompanyRepository companyRepository, IMapper mapper)
         {
             _companyRepository = companyRepository;
+            _mapper = mapper;
         }
-        [HttpGet("Get CertificateHolderCompanies")]
+        [HttpGet("GetCertificateHolderCompanies")]
         public IActionResult GetCertificateHolderCompaniesList()
         {
             var certificationholdercompanies = _companyRepository.GetList();
@@ -31,15 +34,23 @@ namespace CertificateVerificationAPI.Controllers
             return Ok(certificate);
         }
         [HttpPost]
-        public IActionResult AddCertificateHolderCompanies(CertificateHolderCompany certificateHolderCompany)
+        public IActionResult AddCertificateHolderCompanies([FromBody] CertificateHolderCompanyDTO certificateHolderCompanyDto)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest();
             }
 
-            _companyRepository.Insert(certificateHolderCompany);
-            return Ok();
+            // Map the DTO to the entity
+            var certificateHolderCompanyEntity = _mapper.Map<CertificateHolderCompany>(certificateHolderCompanyDto);
+
+            // Insert the entity
+            _companyRepository.Insert(certificateHolderCompanyEntity);
+
+            // Optionally, map the entity back to a DTO for the response
+            var createdCertificateDto = _mapper.Map<CertificateHolderCompanyDTO>(certificateHolderCompanyEntity);
+
+            return Ok(createdCertificateDto);
         }
         [HttpDelete("{id}")]
         public IActionResult DeleteCertificateHolderCompanies(int id)
@@ -49,14 +60,15 @@ namespace CertificateVerificationAPI.Controllers
             return Ok();
         }
         [HttpPut]
-        public IActionResult UpdateCertificateHolderCompanies(CertificateHolderCompany certificateHolderCompany)
+        public IActionResult UpdateCertificateHolderCompanies(CertificateHolderCompanyDTO certificateHolderCompanyDTO)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest();
             }
-
-            _companyRepository.Update(certificateHolderCompany);
+            CertificateHolderCompany certificateHolderCompanyEntity = _mapper.Map<CertificateHolderCompany>(certificateHolderCompanyDTO);
+            _companyRepository.Update(certificateHolderCompanyEntity);
+            
             return Ok();
         }
 
