@@ -8,7 +8,7 @@ namespace CertificateVerificationAPI.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-0SUFM5J;initial Catalog=CertificateDb;integrated Security=true;TrustServerCertificate=true;");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-J4IEETI;initial Catalog=CertificateDb;integrated Security=true;TrustServerCertificate=true;");
             
         }
         public DbSet<User> Users { get; set; }

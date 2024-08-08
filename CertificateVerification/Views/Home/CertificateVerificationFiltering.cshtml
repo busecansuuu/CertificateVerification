@@ -1,0 +1,71 @@
+﻿@*
+    Daha fazla bilgi için https://go.microsoft.com/fwlink/?LinkID=397860 adresini ziyaret edin
+*@
+@{
+    ViewData["Title"] = "Sertifika Doğrulama";
+}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .verification-container {
+            margin-top: 100px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 0.25rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-control {
+            border-radius: 0.25rem;
+        }
+
+        .btn-primary {
+            border-radius: 0.25rem;
+            background-color: #003366;
+            border: none;
+        }
+
+        .header {
+            margin-bottom: 30px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container verification-container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 text-center">
+                <div class="header">
+                    <h1>Sertifika Doğrulama</h1>
+                    <p>Geçerliliğini doğrulamak için aşağıya sertifika kodunuzu giriniz.</p>
+                </div>
+                <form method="post" asp-action="CertificateVerificationFiltering">
+                    <div class="form-group">
+                        <label for="certificateCode">Sertifika Kodu</label>
+                        <input type="number" class="form-control" id="certificateCode" placeholder="Sertifika kodunu giriniz." name="certificateCode">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Doğrula</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

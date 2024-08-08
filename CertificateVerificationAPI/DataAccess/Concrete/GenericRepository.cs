@@ -5,7 +5,7 @@ namespace CertificateVerificationAPI.DataAccess.Concrete
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
-        private readonly CertificateDbContext _context;
+        protected readonly CertificateDbContext _context;
 
         public GenericRepository(CertificateDbContext context)
         {

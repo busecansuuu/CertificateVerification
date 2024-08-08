@@ -1,0 +1,79 @@
+﻿@model CertificateDTO
+@{
+    ViewData["Title"] = "Sertifika Doğrulama";
+}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Tablodaki satır renkleri */
+        .table tbody tr:nth-child(odd) {
+            background-color: #f8f9fa; /* Açık gri */
+        }
+
+        .table tbody tr:nth-child(even) {
+            background-color: #e9ecef; /* Daha açık gri */
+        }
+        /* Özellik isimlerini kalın yapma */
+        .table td strong {
+            font-weight: bold;
+        }
+        /* Hücre içeriklerini ortalama */
+       
+        /* Tablo kenarlık ve renk ayarları */
+        .table-bordered {
+            border: 1px solid #dee2e6;
+        }
+
+            .table-bordered td, .table-bordered th {
+                border: 1px solid #dee2e6;
+            }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">@ViewData["Title"]</h1>
+        <div class="row mt-4">
+            <div class="col">
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <td><strong>Kod:</strong></td>
+                            <td>@Model.Id</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Sertifika Sahibi Şirketin Adı:</strong></td>
+                            <td>@ViewBag.companyname</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Sertifika Adı:</strong></td>
+                            <td>@Model.CertificateName</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Sertifikayı Alan:</strong></td>
+                            <td>@ViewBag.username</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Veriliş Tarihi:</strong></td>
+                            <td>@Model.GivenDate</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Bitiş Tarihi:</strong></td>
+                            <td>@Model.FinishedDate</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

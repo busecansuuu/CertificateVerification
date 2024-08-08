@@ -19,16 +19,34 @@ namespace CertificateVerification.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> IndexAsync()
+        public async Task<IActionResult> Index()
         {
-            //https://localhost:44320/api/CertificateHolderCompanies/GetCertificateHolderCompanies
             var values = await _httpClientService.InvokeAsync<List<CertificateHolderCompanyDTO>>("CertificateHolderCompanies/GetCertificateHolderCompanies");
             return View();
         }
 
-        public IActionResult Privacy()
+        [HttpGet]
+        public async Task<IActionResult> CertificateVerification(CertificateDTO certificateDTO)
+        {
+            var company = await _httpClientService.InvokeAsync<CertificateHolderCompanyDTO>($"CertificateHolderCompanies/{certificateDTO.CertificateHolderCompanyId}");
+            var User = await _httpClientService.InvokeAsync<UserDTO>($"Users/{certificateDTO.UserId}");
+            ViewBag.companyname = company.CompanyName;
+            ViewBag.username = User.Name;
+            return View(certificateDTO);
+        }
+
+        [HttpGet]
+        public IActionResult CertificateVerificationFiltering()
         {
             return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CertificateVerificationFiltering(int certificateCode)
+        {
+
+            var values = await _httpClientService.InvokeAsync<CertificateDTO>($"Certificates/{certificateCode}");
+            return RedirectToAction("CertificateVerification", values);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

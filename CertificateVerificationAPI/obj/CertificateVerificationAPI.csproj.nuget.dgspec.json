@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BUSE\\.net\\CertificateVerification\\CertificateVerificationAPI\\CertificateVerificationAPI.csproj": {}
+    "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerificationAPI\\CertificateVerificationAPI.csproj": {}
   },
   "projects": {
-    "D:\\BUSE\\.net\\CertificateVerification\\CertificateVerificationAPI\\CertificateVerificationAPI.csproj": {
+    "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerificationAPI\\CertificateVerificationAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BUSE\\.net\\CertificateVerification\\CertificateVerificationAPI\\CertificateVerificationAPI.csproj",
+        "projectUniqueName": "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerificationAPI\\CertificateVerificationAPI.csproj",
         "projectName": "CertificateVerificationAPI",
-        "projectPath": "D:\\BUSE\\.net\\CertificateVerification\\CertificateVerificationAPI\\CertificateVerificationAPI.csproj",
-        "packagesPath": "C:\\Users\\Buse\\.nuget\\packages\\",
-        "outputPath": "D:\\BUSE\\.net\\CertificateVerification\\CertificateVerificationAPI\\obj\\",
+        "projectPath": "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerificationAPI\\CertificateVerificationAPI.csproj",
+        "packagesPath": "C:\\Users\\buse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerificationAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Buse\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\buse\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -68,6 +70,10 @@
               "target": "Package",
               "version": "[8.0.7, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -92,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
