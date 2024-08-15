@@ -1,0 +1,51 @@
+﻿@model LoginDTO
+@{
+    ViewData["Title"] = "Giriş Yap";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" />
+    <style>
+        .btn{
+            background-color:darkblue
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+       
+        <div class="row w-100">
+            <div class="col-md-6 col-lg-4 mx-auto">
+                <div class="card">
+                    <div class="card-body p-4">
+                        <h2 class="text-center mb-4">Giriş Yap</h2>
+                        <form method="post">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">E-posta adresi</label>
+                                <input type="email" class="form-control" id="email" name="Email" placeholder="E-posta adresinizi giriniz" required asp-for="Email"/>
+                            </div>
+                            <div class="mb-2">
+                                <label for="password" class="form-label">Şifre</label>
+                                <input type="password" class="form-control" id="password" name="Password" placeholder="Şifrenizi giriniz" asp-for="Password"/>
+                            </div>
+                          
+                            <button type="submit" class="btn btn-primary w-100">Giriş Yap</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

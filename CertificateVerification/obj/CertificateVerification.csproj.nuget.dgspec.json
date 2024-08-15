@@ -4,14 +4,14 @@
     "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerification\\CertificateVerification.csproj": {}
   },
   "projects": {
-    "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerification\\CertificateVerification.csproj": {
+    "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerificationAPI\\CertificateVerificationAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerification\\CertificateVerification.csproj",
-        "projectName": "CertificateVerification",
-        "projectPath": "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerification\\CertificateVerification.csproj",
+        "projectUniqueName": "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerificationAPI\\CertificateVerificationAPI.csproj",
+        "projectName": "CertificateVerificationAPI",
+        "projectPath": "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerificationAPI\\CertificateVerificationAPI.csproj",
         "packagesPath": "C:\\Users\\buse\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerification\\obj\\",
+        "outputPath": "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerificationAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\buse\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,6 +63,112 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerification\\CertificateVerification.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerification\\CertificateVerification.csproj",
+        "projectName": "CertificateVerification",
+        "projectPath": "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerification\\CertificateVerification.csproj",
+        "packagesPath": "C:\\Users\\buse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerification\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\buse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerificationAPI\\CertificateVerificationAPI.csproj": {
+                "projectPath": "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerificationAPI\\CertificateVerificationAPI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.3, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

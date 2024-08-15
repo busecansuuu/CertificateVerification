@@ -64,7 +64,7 @@ namespace CertificateVerificationAPI.Controllers
             _userRepository.Delete(Users);
             return Ok();
         }
-        [HttpPut]
+        [HttpPut("{id}")]
         public IActionResult UpdateUsers(UserDTO userDTO)
         {
             if (!ModelState.IsValid)

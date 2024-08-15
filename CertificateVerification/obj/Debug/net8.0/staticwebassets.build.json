@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "hOyBQ93c95E3ht2ZElpTYUqWLvUXvNZJg1HtZGj76hQ=",
+  "Hash": "nX9VJOvDeSunI/tlGMh9G+SMhOq39pWn1f4Zt2NdxYE=",
   "Source": "CertificateVerification",
   "BasePath": "_content/CertificateVerification",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerificationAPI\\CertificateVerificationAPI.csproj",
+      "Version": 2,
+      "Source": "CertificateVerificationAPI",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "CertificateVerification\\wwwroot",
@@ -91,6 +103,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerification\\wwwroot\\img\\verkosis.png",
+      "SourceId": "CertificateVerification",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerification\\wwwroot\\",
+      "BasePath": "_content/CertificateVerification",
+      "RelativePath": "img/verkosis.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\verkosis.png"
     },
     {
       "Identity": "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerification\\wwwroot\\js\\site.js",

@@ -57,7 +57,7 @@ namespace CertificateVerificationAPI.Controllers
             _certificateRepository.Delete(Certificates);
             return Ok();
         }
-        [HttpPut]
+        [HttpPut("{id}")]
         public IActionResult UpdateCertificates(CertificateDTO certificateDTO)
         {
             if (!ModelState.IsValid)

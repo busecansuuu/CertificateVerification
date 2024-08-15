@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerification\\wwwroot\\img\\verkosis.png",
+      "PackagePath": "staticwebassets\\img\\verkosis.png"
+    },
+    {
       "Id": "C:\\Users\\buse\\Source\\Repos\\CertificateVerification\\CertificateVerification\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

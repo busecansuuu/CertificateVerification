@@ -1,0 +1,91 @@
+﻿@model List<CertificateDTO>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row d-flex justify-content-between">
+    <!-- Sidebar -->
+    <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-dark text-white sidebar">
+        <div class="d-flex flex-column vh-100">
+            <ul class="nav flex-column flex-grow-1">
+                <li class="nav-item mb-3">
+                    
+                    <h5 class="text-center pt-3" >ADMİN PANEL</h5>
+                </li>
+                <li class="nav-item mb-3">
+                    <a class="nav-link text-white" aria-current="page" asp-controller="AdminUser" asp-action="Index">
+                        <i class="bi bi-people-fill"></i>
+                        Kullanıcı Yönetimi
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" asp-controller="AdminCertificate" asp-action="Index">
+                        <i class="bi bi-file-earmark-check-fill"></i>
+                        Sertifika Yönetimi
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" asp-controller="Login" asp-action="LogOut">
+                        <i class="bi bi-file-earmark-check-fill"></i>
+                        Çıkış Yap
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="col-md-9 col-lg-10">
+
+        <div class="card">
+            <div class="card-header">
+                <h4 class="card-title">Sertifikalar</h4>
+            </div>
+            <div class="card-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Sertifika Sahibi Şirket ID</th>
+                            <th>Kullanıcı ID</th>
+                            <th>Sertifikayı Alan Kullanıcı</th>
+                            <th>Sertifika Adı</th>
+                            <th>Veriliş Tarihi</th>
+                            <th>Bitiş Tarihi</th>
+                            <th>Seç</th>
+                            <th>Sil</th>
+
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var certificate in Model)
+                        {
+                            <tr>
+                                <td>@certificate.Id</td>
+                                <td>@certificate.CertificateHolderCompanyId</td>
+                                <td>@certificate.UserId</td>
+                                <td>@certificate.CertificateOwnerName</td>
+                                <td>@certificate.CertificateName</td>
+                                <td>@certificate.GivenDate</td>
+                                <td>@certificate.FinishedDate</td>
+                                <td>
+                                    <a href="/AdminCertificate/UpdateCertificate/@certificate.Id"
+                                       class="btn btn-outline-secondary">Güncelle</a>
+                                </td>
+                                <td>
+                                    <a href="/AdminCertificate/RemoveCertificate/@certificate.Id"
+                                       class="btn btn-outline-secondary">Sil</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                        <a href="/AdminCertificate/AddCertificate"
+                           class="btn btn-outline-secondary">Ekle</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+

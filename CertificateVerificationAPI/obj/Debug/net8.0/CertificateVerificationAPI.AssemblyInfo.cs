@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CertificateVerificationAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55b7b4963eba6b68e590c3dd045934fb5505d2f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+638fc41ca05ebe72a9392756e71c8c15fc7be6d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("CertificateVerificationAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CertificateVerificationAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

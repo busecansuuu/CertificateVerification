@@ -3,116 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverification\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|solutionrelative:certificateverification\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverificationapi\\context\\certificatedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|solutionrelative:certificateverificationapi\\context\\certificatedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverificationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|solutionrelative:certificateverificationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverificationapi\\controllers\\loginscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|solutionrelative:certificateverificationapi\\controllers\\loginscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverificationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|solutionrelative:certificateverificationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverification\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|solutionrelative:certificateverification\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverification\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|solutionrelative:certificateverification\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverification\\views\\home\\certificateverification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|solutionrelative:certificateverification\\views\\home\\certificateverification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverificationapi\\dataaccess\\abstract\\icertificaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|solutionrelative:certificateverificationapi\\dataaccess\\abstract\\icertificaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverificationapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|solutionrelative:certificateverificationapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverificationapi\\dataaccess\\concrete\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|solutionrelative:certificateverificationapi\\dataaccess\\concrete\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverificationapi\\controllers\\certificateholdercompaniescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|solutionrelative:certificateverificationapi\\controllers\\certificateholdercompaniescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverificationapi\\dataaccess\\concrete\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|solutionrelative:certificateverificationapi\\dataaccess\\concrete\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverificationapi\\dataaccess\\concrete\\certificaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|solutionrelative:certificateverificationapi\\dataaccess\\concrete\\certificaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverificationapi\\dataaccess\\abstract\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|solutionrelative:certificateverificationapi\\dataaccess\\abstract\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverificationapi\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|solutionrelative:certificateverificationapi\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverificationapi\\controllers\\certificatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|solutionrelative:certificateverificationapi\\controllers\\certificatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverification\\dtos\\certificatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|solutionrelative:certificateverification\\dtos\\certificatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverification\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|solutionrelative:certificateverification\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverification\\views\\home\\certificateverificationfiltering.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|solutionrelative:certificateverification\\views\\home\\certificateverificationfiltering.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverification\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|solutionrelative:certificateverification\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverification\\dtos\\certificateholdercompanydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|solutionrelative:certificateverification\\dtos\\certificateholdercompanydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverificationapi\\dataaccess\\abstract\\icertificateholdercompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|solutionrelative:certificateverificationapi\\dataaccess\\abstract\\icertificateholdercompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverificationapi\\dtos\\certificatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|solutionrelative:certificateverificationapi\\dtos\\certificatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverificationapi\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|solutionrelative:certificateverificationapi\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverificationapi\\mapping\\apimapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|solutionrelative:certificateverificationapi\\mapping\\apimapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverification\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|solutionrelative:certificateverification\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverificationapi\\services\\passwordservices\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|solutionrelative:certificateverificationapi\\services\\passwordservices\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverificationapi\\entities\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|solutionrelative:certificateverificationapi\\entities\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverification\\views\\adminuser\\updateuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|solutionrelative:certificateverification\\views\\adminuser\\updateuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverification\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|solutionrelative:certificateverification\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverification\\views\\adminuser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|solutionrelative:certificateverification\\views\\adminuser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverification\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|solutionrelative:certificateverification\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverification\\views\\adminuser\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|solutionrelative:certificateverification\\views\\adminuser\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverificationapi\\context\\certificatedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|solutionrelative:certificateverificationapi\\context\\certificatedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverification\\views\\admincertificate\\updatecertificate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|solutionrelative:certificateverification\\views\\admincertificate\\updatecertificate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverificationapi\\dataaccess\\abstract\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5B4E19-8134-47E9-AFEE-540120E37F8F}|CertificateVerificationAPI\\CertificateVerificationAPI.csproj|solutionrelative:certificateverificationapi\\dataaccess\\abstract\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverification\\views\\admincertificate\\addcertificate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|solutionrelative:certificateverification\\views\\admincertificate\\addcertificate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|c:\\users\\buse\\source\\repos\\certificateverification\\certificateverification\\views\\admincertificate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{208418BF-163A-40B3-B6EE-E6DD79C5C2DE}|CertificateVerification\\CertificateVerification.csproj|solutionrelative:certificateverification\\views\\admincertificate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,245 +58,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "CertificateVerificationAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\appsettings.json",
-              "RelativeToolTip": "CertificateVerificationAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-08T08:07:01.702Z",
+              "Title": "LoginsController.cs",
+              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\Controllers\\LoginsController.cs",
+              "RelativeDocumentMoniker": "CertificateVerificationAPI\\Controllers\\LoginsController.cs",
+              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\Controllers\\LoginsController.cs",
+              "RelativeToolTip": "CertificateVerificationAPI\\Controllers\\LoginsController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T21:32:43.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CertificateDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\Context\\CertificateDbContext.cs",
+              "RelativeDocumentMoniker": "CertificateVerificationAPI\\Context\\CertificateDbContext.cs",
+              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\Context\\CertificateDbContext.cs",
+              "RelativeToolTip": "CertificateVerificationAPI\\Context\\CertificateDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T16:58:13.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\Program.cs",
-              "RelativeDocumentMoniker": "CertificateVerificationAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\Program.cs",
-              "RelativeToolTip": "CertificateVerificationAPI\\Program.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "ICertificateHolderCompanyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\DataAccess\\Abstract\\ICertificateHolderCompanyRepository.cs",
+              "RelativeDocumentMoniker": "CertificateVerificationAPI\\DataAccess\\Abstract\\ICertificateHolderCompanyRepository.cs",
+              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\DataAccess\\Abstract\\ICertificateHolderCompanyRepository.cs",
+              "RelativeToolTip": "CertificateVerificationAPI\\DataAccess\\Abstract\\ICertificateHolderCompanyRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T08:06:54.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "CertificateVerificationAPI\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "CertificateVerificationAPI\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwCQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T17:34:57.13Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ICertificateRepository.cs",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\DataAccess\\Abstract\\ICertificateRepository.cs",
-              "RelativeDocumentMoniker": "CertificateVerificationAPI\\DataAccess\\Abstract\\ICertificateRepository.cs",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\DataAccess\\Abstract\\ICertificateRepository.cs",
-              "RelativeToolTip": "CertificateVerificationAPI\\DataAccess\\Abstract\\ICertificateRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T17:27:32.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CertificateRepository.cs",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\DataAccess\\Concrete\\CertificateRepository.cs",
-              "RelativeDocumentMoniker": "CertificateVerificationAPI\\DataAccess\\Concrete\\CertificateRepository.cs",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\DataAccess\\Concrete\\CertificateRepository.cs",
-              "RelativeToolTip": "CertificateVerificationAPI\\DataAccess\\Concrete\\CertificateRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T13:44:58.328Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "CertificateVerification\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "CertificateVerification\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAswCAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T13:44:58.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Program.cs",
-              "RelativeDocumentMoniker": "CertificateVerification\\Program.cs",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Program.cs",
-              "RelativeToolTip": "CertificateVerification\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T13:44:58.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CertificateVerification.cshtml",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\Home\\CertificateVerification.cshtml",
-              "RelativeDocumentMoniker": "CertificateVerification\\Views\\Home\\CertificateVerification.cshtml",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\Home\\CertificateVerification.cshtml",
-              "RelativeToolTip": "CertificateVerification\\Views\\Home\\CertificateVerification.cshtml",
-              "ViewState": "AQIAACsAAAAAAAAAAAAmwEIAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T17:24:23.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-12T16:58:02.213Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CertificateVerification\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CertificateVerification\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAABUAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T13:44:58.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\DataAccess\\Concrete\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "CertificateVerificationAPI\\DataAccess\\Concrete\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\DataAccess\\Concrete\\GenericRepository.cs",
-              "RelativeToolTip": "CertificateVerificationAPI\\DataAccess\\Concrete\\GenericRepository.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwA4AAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T17:39:52.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CertificateHolderCompaniesController.cs",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\Controllers\\CertificateHolderCompaniesController.cs",
-              "RelativeDocumentMoniker": "CertificateVerificationAPI\\Controllers\\CertificateHolderCompaniesController.cs",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\Controllers\\CertificateHolderCompaniesController.cs",
-              "RelativeToolTip": "CertificateVerificationAPI\\Controllers\\CertificateHolderCompaniesController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T17:41:02.471Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\DataAccess\\Abstract\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "CertificateVerificationAPI\\DataAccess\\Abstract\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\DataAccess\\Abstract\\IUserRepository.cs",
-              "RelativeToolTip": "CertificateVerificationAPI\\DataAccess\\Abstract\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T13:44:58.32Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\DataAccess\\Concrete\\UserRepository.cs",
-              "RelativeDocumentMoniker": "CertificateVerificationAPI\\DataAccess\\Concrete\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\DataAccess\\Concrete\\UserRepository.cs",
-              "RelativeToolTip": "CertificateVerificationAPI\\DataAccess\\Concrete\\UserRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T17:34:55.521Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "CertificateVerificationAPI\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\Entities\\User.cs",
-              "RelativeToolTip": "CertificateVerificationAPI\\Entities\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T17:37:55.295Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CertificatesController.cs",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\Controllers\\CertificatesController.cs",
-              "RelativeDocumentMoniker": "CertificateVerificationAPI\\Controllers\\CertificatesController.cs",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\Controllers\\CertificatesController.cs",
-              "RelativeToolTip": "CertificateVerificationAPI\\Controllers\\CertificatesController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwB4AAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T17:26:43.04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\DTOS\\UserDTO.cs",
-              "RelativeDocumentMoniker": "CertificateVerificationAPI\\DTOS\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\DTOS\\UserDTO.cs",
-              "RelativeToolTip": "CertificateVerificationAPI\\DTOS\\UserDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T13:44:58.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CertificateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\DTOS\\CertificateDTO.cs",
-              "RelativeDocumentMoniker": "CertificateVerification\\DTOS\\CertificateDTO.cs",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\DTOS\\CertificateDTO.cs",
-              "RelativeToolTip": "CertificateVerification\\DTOS\\CertificateDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T17:23:03.26Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CertificateHolderCompanyDTO.cs",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\DTOS\\CertificateHolderCompanyDTO.cs",
-              "RelativeDocumentMoniker": "CertificateVerification\\DTOS\\CertificateHolderCompanyDTO.cs",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\DTOS\\CertificateHolderCompanyDTO.cs",
-              "RelativeToolTip": "CertificateVerification\\DTOS\\CertificateHolderCompanyDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T15:36:45.873Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "CertificateVerification\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "CertificateVerification\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T11:57:19.74Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
               "Title": "CertificateDTO.cs",
               "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\DTOS\\CertificateDTO.cs",
               "RelativeDocumentMoniker": "CertificateVerificationAPI\\DTOS\\CertificateDTO.cs",
@@ -368,103 +107,103 @@
               "RelativeToolTip": "CertificateVerificationAPI\\DTOS\\CertificateDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T13:44:58.323Z"
+              "WhenOpened": "2024-08-12T16:57:45.965Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CertificateVerificationFiltering.cshtml",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\Home\\CertificateVerificationFiltering.cshtml",
-              "RelativeDocumentMoniker": "CertificateVerification\\Views\\Home\\CertificateVerificationFiltering.cshtml",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\Home\\CertificateVerificationFiltering.cshtml",
-              "RelativeToolTip": "CertificateVerification\\Views\\Home\\CertificateVerificationFiltering.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADgAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T12:06:29.473Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\DTOS\\UserDTO.cs",
-              "RelativeDocumentMoniker": "CertificateVerification\\DTOS\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\DTOS\\UserDTO.cs",
-              "RelativeToolTip": "CertificateVerification\\DTOS\\UserDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "DocumentIndex": 4,
+              "Title": "APIMapping.cs",
+              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\Mapping\\APIMapping.cs",
+              "RelativeDocumentMoniker": "CertificateVerificationAPI\\Mapping\\APIMapping.cs",
+              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\Mapping\\APIMapping.cs",
+              "RelativeToolTip": "CertificateVerificationAPI\\Mapping\\APIMapping.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T16:40:42.554Z"
+              "WhenOpened": "2024-08-12T16:56:45.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "CertificateVerification\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "CertificateVerification\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAABMAAAAAAAAAAAAswCwAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-05T13:44:58.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "CertificateVerification\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "CertificateVerification\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T13:44:58.301Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Certificate.cs",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\Entities\\Certificate.cs",
-              "RelativeDocumentMoniker": "CertificateVerificationAPI\\Entities\\Certificate.cs",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\Entities\\Certificate.cs",
-              "RelativeToolTip": "CertificateVerificationAPI\\Entities\\Certificate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "PasswordService.cs",
+              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\Services\\PasswordServices\\PasswordService.cs",
+              "RelativeDocumentMoniker": "CertificateVerificationAPI\\Services\\PasswordServices\\PasswordService.cs",
+              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\Services\\PasswordServices\\PasswordService.cs",
+              "RelativeToolTip": "CertificateVerificationAPI\\Services\\PasswordServices\\PasswordService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T13:58:33.179Z"
+              "WhenOpened": "2024-08-12T16:56:29.89Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 6,
+              "Title": "UpdateUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\AdminUser\\UpdateUser.cshtml",
+              "RelativeDocumentMoniker": "CertificateVerification\\Views\\AdminUser\\UpdateUser.cshtml",
+              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\AdminUser\\UpdateUser.cshtml",
+              "RelativeToolTip": "CertificateVerification\\Views\\AdminUser\\UpdateUser.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T16:52:06.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "CertificateVerification\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "CertificateVerification\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\AdminUser\\Index.cshtml",
+              "RelativeDocumentMoniker": "CertificateVerification\\Views\\AdminUser\\Index.cshtml",
+              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\AdminUser\\Index.cshtml",
+              "RelativeToolTip": "CertificateVerification\\Views\\AdminUser\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T12:11:29.816Z"
+              "WhenOpened": "2024-08-12T16:52:01.451Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CertificateDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\Context\\CertificateDbContext.cs",
-              "RelativeDocumentMoniker": "CertificateVerificationAPI\\Context\\CertificateDbContext.cs",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\Context\\CertificateDbContext.cs",
-              "RelativeToolTip": "CertificateVerificationAPI\\Context\\CertificateDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T13:44:58.315Z"
+              "DocumentIndex": 8,
+              "Title": "AddUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\AdminUser\\AddUser.cshtml",
+              "RelativeDocumentMoniker": "CertificateVerification\\Views\\AdminUser\\AddUser.cshtml",
+              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\AdminUser\\AddUser.cshtml",
+              "RelativeToolTip": "CertificateVerification\\Views\\AdminUser\\AddUser.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T16:51:57.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\DataAccess\\Abstract\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "CertificateVerificationAPI\\DataAccess\\Abstract\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerificationAPI\\DataAccess\\Abstract\\IGenericRepository.cs",
-              "RelativeToolTip": "CertificateVerificationAPI\\DataAccess\\Abstract\\IGenericRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T13:44:58.318Z"
+              "DocumentIndex": 9,
+              "Title": "UpdateCertificate.cshtml",
+              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\AdminCertificate\\UpdateCertificate.cshtml",
+              "RelativeDocumentMoniker": "CertificateVerification\\Views\\AdminCertificate\\UpdateCertificate.cshtml",
+              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\AdminCertificate\\UpdateCertificate.cshtml",
+              "RelativeToolTip": "CertificateVerification\\Views\\AdminCertificate\\UpdateCertificate.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T16:51:52.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddCertificate.cshtml",
+              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\AdminCertificate\\AddCertificate.cshtml",
+              "RelativeDocumentMoniker": "CertificateVerification\\Views\\AdminCertificate\\AddCertificate.cshtml",
+              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\AdminCertificate\\AddCertificate.cshtml",
+              "RelativeToolTip": "CertificateVerification\\Views\\AdminCertificate\\AddCertificate.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T16:51:47.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\AdminCertificate\\Index.cshtml",
+              "RelativeDocumentMoniker": "CertificateVerification\\Views\\AdminCertificate\\Index.cshtml",
+              "ToolTip": "C:\\Users\\buse\\source\\repos\\CertificateVerification\\CertificateVerification\\Views\\AdminCertificate\\Index.cshtml",
+              "RelativeToolTip": "CertificateVerification\\Views\\AdminCertificate\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T16:47:56.725Z"
             }
           ]
         }

@@ -1,0 +1,74 @@
+﻿@model CertificateDTO
+@{
+    ViewData["Title"] = "AddCertificate";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row d-flex justify-content-between">
+    <!-- Sidebar -->
+    <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-dark text-white sidebar">
+        <div class="d-flex flex-column vh-100">
+            <ul class="nav flex-column flex-grow-1">
+                <li class="nav-item mb-3">
+
+                    <h5 class="text-center pt-3">ADMİN PANEL</h5>
+                </li>
+                <li class="nav-item mb-3">
+
+                    <a class="nav-link text-white" aria-current="page" asp-controller="AdminUser" asp-action="Index">
+                        <i class="bi bi-people-fill"></i>
+                        Kullanıcı Yönetimi
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" asp-controller="AdminCertificate" asp-action="Index">
+                        <i class="bi bi-file-earmark-check-fill"></i>
+                        Sertifika Yönetimi
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" asp-controller="Login" asp-action="LogOut">
+                        <i class="bi bi-file-earmark-check-fill"></i>
+                        Çıkış Yap
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="col-md-9 col-lg-10">
+        <!-- Kullanıcı Ekleme Formu -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h4 class="card-title">Sertifika Ekle</h4>
+            </div>
+            <div class="card-body">
+                <form method="post">
+                    <div class="mb-3">
+                        <label for="certificateName" class="form-label">Sertifika Adı</label>
+                        <input type="text" class="form-control" id="certificateName" asp-for="CertificateName" placeholder="Sertifika Adı Giriniz" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="certificateName" class="form-label">Sertifika Veren Şirket</label>
+                        @Html.DropDownListFor(x => x.CertificateHolderCompanyId, (List<SelectListItem>)ViewBag.HolderCompanies, new { @class = "form-control" })
+                    </div>
+                    <div class="mb-3">
+                        <label for="certificateName" class="form-label">Sertifikayı Alan Kişi</label>
+                        @Html.DropDownListFor(x => x.UserId, (List<SelectListItem>)ViewBag.Users, new { @class = "form-control" })
+                    </div>
+                    <div class="mb-3">
+                        <label for="CertificateOwnerName" class="form-label">Sertifikayı İmzalayan Kişi</label>
+                        <input type="text" class="form-control" id="CertificateOwnerName" asp-for="CertificateOwnerName" placeholder="Sertifikayı Alan Kişi" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="FinishedDate" class="form-label">Sertifika Bitiş Tarihi</label>
+                        <input type="date" class="form-control" id="FinishedDate" asp-for="FinishedDate" placeholder="Sertifika Bitiş Tarihi" required />
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Ekle</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
